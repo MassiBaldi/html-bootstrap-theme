@@ -7,15 +7,17 @@
 .color_white {
   color: white;
 }
-.navbar {
+.fixed {
   width: 100%;
   height: 100px;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   position: fixed;
   border-radius: 0px;
+  top: 0;
+  left: 0;
 }
-.navbar_height {
+.fixed_height {
   height: 100%;
 }
 .fixed_left, .fixed_right {
@@ -38,5 +40,31 @@
 }
 .section_1 {
   width: 100%;
-  height: 700px;
+  height: 750px;
+  margin-top: 70px
+}
+.section_1_img {
+  position: relative;
+  margin-top: 150px;
+  left: 50%;
+  transform:translateX(-50%);
+}
+.section_1 h1 {
+  transform: uppercase;
+  font-weight: 700;
+  font-size: 80px;
+}
+.section_1_star i {
+margin-top: 30px;
+font-size: 35px;
+}
+.hr {
+  border-top: 4px solid white;
+  width: 100px;
+  display: inline-block;
+  margin: 10px 5px;
+}
+.section_1_text p {
+  margin-top: 30px;
+  font-size: 25px;
 }
