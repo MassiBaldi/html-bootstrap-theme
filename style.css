@@ -1,0 +1,42 @@
+.bg_green {
+  background: #18bc9c;
+}
+.bg_blue {
+  background: #2c3e50;
+}
+.color_white {
+  color: white;
+}
+.navbar {
+  width: 100%;
+  height: 100px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  position: fixed;
+  border-radius: 0px;
+}
+.navbar_height {
+  height: 100%;
+}
+.fixed_left, .fixed_right {
+  text-align: left;
+  line-height: 100px;
+  border-radius: none;
+}
+.fixed_left a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+.fixed_right a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 0 25px;
+  color: white;
+}
+.section_1 {
+  width: 100%;
+  height: 700px;
+}
